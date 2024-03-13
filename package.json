@@ -1,5 +1,5 @@
 {
-  "name": "WhiteAPI",
+  "name": "anime-dex-api",
   "version": "0.0.1",
   "description": "API for retrieving anime-related data from various sources.",
   "main": "src/index.js",
