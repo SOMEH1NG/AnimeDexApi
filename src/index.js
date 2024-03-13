@@ -6,15 +6,15 @@ import {
     getEpisode,
     GogoDLScrapper,
     getGogoAuthKey,
-} from "./gogo";
+} from "./gogo.js";
 
 import {
     getAnilistTrending,
     getAnilistSearch,
     getAnilistAnime,
     getAnilistUpcoming,
-} from "./anilist";
-import { SaveError } from "./errorHandler";
+} from "./anilist.js";
+import { SaveError } from "./errorHandler.js";
 
 let CACHE = {};
 let HOME_CACHE = {};
